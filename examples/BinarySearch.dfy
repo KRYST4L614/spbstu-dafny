@@ -1,4 +1,3 @@
-// Задача 2: бинарный поиск в отсортированном массиве.
 method BinarySearch(a: array<int>, key: int) returns (idx: int)
   requires forall i, j :: 0 <= i < j < a.Length ==> a[i] <= a[j]
   ensures 0 <= idx ==> idx < a.Length && a[idx] == key

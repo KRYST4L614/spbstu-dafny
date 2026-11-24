@@ -1,4 +1,3 @@
-// Задача 1: индекс максимального элемента массива.
 method FindMax(a: array<int>) returns (idx: int)
   requires a.Length > 0
   ensures 0 <= idx < a.Length
